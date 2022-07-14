@@ -41,16 +41,28 @@ rails db:migrate
 ### Style Modifications
 
 ### Git Github
+git config --global user.name "Yanyan"
+git config --global user.email "yenj2015@gmail.com"
+git config --global push.default matching
+git config --global alias.co checkout
+git init
+
 # git add . (add everything in our project to our repository)
 # git commit -m 'initial commit' (save code to our local repository)
 # (push code to the third party of website)
 # mkdir ~/.ssh 
 # cd ~/.ssh
-# ssh-keygen.exe
+# ssh-keygen -t rsa -C "myemailhere" (ssh-keygen.exe)
 # enter
 # passphrase: enter  enter
-# ls (two files)
+# ls (two files: id_rsa   id_rsa.pub)
 # cat id_rsa.pub 
+# copy key
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDV+URXutoUOxL91UuQn6DwBbcq0wg5Ag9VizvRI6EOz42ifGzRt1h2S79KgroGSDjqHZKCgSSns2VU2+o5Tun/F5jrwdjzCQpy5mBmdPImI20okjCtxhzjydPk735QJCyYk+/9+rIG0dZqW3uv+NQCbuqdYE31nYmO1P3WoyVMaO8YXEuTEN6NSM5GlNKFtIpyEUK20hSCsC3nH+5XJfoXYj2zKpVdIW+2K1+esTaIqpeVZr5TUmq2FYrVX6LELhRZ8dd/bo9saMOnRHaCg19YaD9c9+CBQHrJTNEpcS1OOmA0A9+ooRAv+YVeUnJ51/E87Pto0o4Zxvr8EvDi1KZH7UFEnyymMJ34RQGYdr9xhXbqrZmv81V9hjspXZaM6yRysNOegeMyiTmBgurUqUnELZUK0Epv0cyZo5FUmysGswNMZl2HOUfLdAe5AjGrL6Prz6XubOqvOmEXt+XzV0LDT/XbNkH+STgVb75GnJjwKKQt5dkTxbdzosxjCRfE0iM= myemailhere
+
+# git remote add origin git@github.com:Yanyan07/railsfriends.git
+# git branch -M main (change from master to main)
+# git push -u origin main
 # 
 
 
