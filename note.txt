@@ -65,3 +65,17 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDV+URXutoUOxL91UuQn6DwBbcq0wg5Ag9VizvRI6EO
 # git push -u origin main
 # 
 
+### Heroku
+heroku --version
+heroku login
+
+yenj2015@gmail.com 
+Ji0...9@
+heroku create
+https://sheltered-springs-58583.herokuapp.com/ | https://git.heroku.com/sheltered-springs-58583.git
+heroku rename railsfriends
+https://railsfriends.herokuapp.com/
+heroku keys:add
+
+# rubygem.org --> pg --> Gemfile copy --> paste to Gemfile :production 
+
