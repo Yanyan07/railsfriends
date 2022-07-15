@@ -78,4 +78,12 @@ https://railsfriends.herokuapp.com/
 heroku keys:add
 
 # rubygem.org --> pg --> Gemfile copy --> paste to Gemfile :production 
+bundle install --without production
+git add .
+git commit -m 'added pg to production'
+git push
+git push heroku main
+heroku run rails db:migrate
+
+### CODEMY.COM 
 
